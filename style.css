@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+#crediti{
+	z-index:3;
+	width:100%;
+	height:15px;
+	top:0px;
+	left:0px;
+	position:fixed;
+	background-color:grey;
+	opacity:0.5;
+	color:#000000;
+	font-size:14px;
+	
+	}
+	#scritta{
+	z-index:4;
+	top:0px;
+	left:0px;
+	position:fixed;
+	color:black;
+	opacity:1;
+	}
+#back{
+	font:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	top: 80px;
+	left: 0px;
+	background-image:url(images/sfondo.gif);
+    width: 100%;
+	height: 413px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	position:absolute;
+}
+#boxdown{
+	z-index:2;
+	top:613px;
+	left:0px;
+	width: 100%;
+	height:600px;
+	background-color:#505759;
+	position:absolute;
+	text-align: center;
+}
+#logo{
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#212726;
+	top:20px;
+	height:50px;
+	width:200px;
+	margin-left:50%;
+	left:-100px;
+	position :absolute;
+	font-size:30px;
+	vertical-align:central;
+	border-radius:10px;
+	text-align:center;
+	border: solid 1px;
+}
+#form{
+	top:100px;
+	margin-left:50%;
+	left:-160px;
+	
+	position:absolute;
+}
+#testo{
+	top:200px;
+	color:black;
+	
+	margin-left:50%;
+	left:-500px;
+	text-align:center;
+	font-size:30px;
+	font-style:bold;
+	position:absolute;
+	
+}
+#linea{
+	text-decoration:line-through;
+}
+#scegli{
+	top:100px;
+	margin-left:50%;
+	left:-300px;
+    font-size:25px;	
+    position:absolute;
+}
+#psw{
+	
+    top:250px;	
+	font-size:25px;
+    margin-left:50%;
+	left:-160px;
+	position:absolute;
+}
+#button{
+	top:350px;
+	margin-left:50%;
+	left:-90px;
+	position:absolute;
+}
+#radio{
+	top:300px;	
+	font-size:20px;
+    margin-left:50%;
+	left:-160px;
+	position:absolute;
+}
